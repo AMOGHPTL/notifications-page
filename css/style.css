@@ -5,6 +5,7 @@
     --color-secondary:hsl(219, 12%, 42%);
     --color-time:hsl(219, 14%, 63%);
     --color-card:hsl(210, 60%, 98%);
+    --color-group: darkblue;
 }
 
 html{
@@ -89,7 +90,7 @@ color: var(--color-time);
 }
 
 
-/* ppicture card */
+/* picture card */
 
 .card-picture{
     justify-content: space-between;
@@ -97,4 +98,11 @@ color: var(--color-time);
 
 .image-picture{
     margin-right: 0;
+}
+
+/* group card */
+
+.group{
+    color: var(--color-group);
+    font-weight: 800;
 }
