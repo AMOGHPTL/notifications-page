@@ -22,9 +22,11 @@ img{
 
 body{
     font-size: 1.6rem;
-    background: hsl(0, 0%, 100%);
+    background: rgb(240, 251, 255);
     font-family: 'Plus Jakarta Sans', sans-serif;
     cursor: default;
+    display: flex;
+    justify-content: center;
 }
 
 .name{
@@ -92,6 +94,10 @@ color: var(--color-time);
     margin-top: 1rem;
 }
 
+.msg:hover{
+    background: rgb(215, 228, 232);
+}
+
 
 /* picture card */
 
@@ -141,4 +147,19 @@ color: var(--color-time);
 .mark{
     color: var(--color-secondary);
     cursor: pointer;
+}
+
+
+/*desktop modifications*/
+
+.notification-bar{
+    max-width: 768px;
+    background: white;
+}
+
+@media screen and (min-width:768px){
+    .notification-bar{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
