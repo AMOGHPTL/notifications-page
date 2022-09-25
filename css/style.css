@@ -6,6 +6,7 @@
     --color-time:hsl(219, 14%, 63%);
     --color-card:hsl(210, 60%, 98%);
     --color-group: darkblue;
+    --color-postname: rgb(81, 81, 110);
 }
 
 html{
@@ -23,6 +24,7 @@ body{
     font-size: 1.6rem;
     background: hsl(0, 0%, 100%);
     font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor: default;
 }
 
 .name{
@@ -37,7 +39,7 @@ body{
 }
 
 .postname{
-    color: var(--color-time);
+    color: var(--color-postname);
     margin-right: 0.5rem;
     font-weight: 800;
 }
@@ -106,9 +108,37 @@ color: var(--color-time);
 .group{
     color: var(--color-group);
     font-weight: 800;
+    margin-right: 0.5rem;
 }
 
 /* hidden */
 .hidden{
     display: none;
+}
+
+/*top bar*/
+
+.top-bar{
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number{
+    margin-left: 1rem;
+    background-color: var(--color-group);
+    color: white;
+    padding: 0.1rem 0.8rem;
+    border-radius: 30%;
+}
+
+.notifications{
+    color: var(--color-primary);
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.mark{
+    color: var(--color-secondary);
+    cursor: pointer;
 }
