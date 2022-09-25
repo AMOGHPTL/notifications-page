@@ -77,3 +77,16 @@ color: var(--color-time);
 .red-dot img{
     width: 1rem;
 }
+
+/* msg card*/
+
+.card-msg .image{
+    align-self: auto;
+}
+
+.msg{
+    border: 1px solid var(--color-time);
+    color: var(--color-secondary);
+    padding: 1rem;
+    margin-top: 1rem;
+}
