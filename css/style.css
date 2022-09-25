@@ -53,9 +53,6 @@ color: var(--color-time);
     padding: 1.5rem;
     display: flex;
     border-radius: 1rem;
-}
-
-.card-basic{
     background: var(--color-card);
 }
 
@@ -89,4 +86,15 @@ color: var(--color-time);
     color: var(--color-secondary);
     padding: 1rem;
     margin-top: 1rem;
+}
+
+
+/* ppicture card */
+
+.card-picture{
+    justify-content: space-between;
+}
+
+.image-picture{
+    margin-right: 0;
 }
