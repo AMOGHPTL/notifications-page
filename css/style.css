@@ -1,0 +1,79 @@
+/* color pallete*/
+
+:root{
+    --color-primary:hsl(224, 21%, 14%);
+    --color-secondary:hsl(219, 12%, 42%);
+    --color-time:hsl(219, 14%, 63%);
+    --color-card:hsl(210, 60%, 98%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    size: 100%;
+    width: 5rem;
+}
+
+/* typography */
+
+body{
+    font-size: 1.6rem;
+    background: hsl(0, 0%, 100%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.name{
+    color: var(-color-primary);
+    font-weight: 800;
+    margin-right: 0.5rem;
+}
+
+.activity{
+    color: var(--color-time);
+    margin-right: 0.5rem;
+}
+
+.postname{
+    color: var(--color-time);
+    margin-right: 0.5rem;
+    font-weight: 800;
+}
+
+.time{
+color: var(--color-time);
+}
+
+
+/*card*/
+
+.card{
+    margin: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.card-basic{
+    background: var(--color-card);
+}
+
+.image{
+    align-self: center;
+    margin-right: 1.5rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about{
+    display: inline;
+}
+
+.red-dot img{
+    width: 1rem;
+}
